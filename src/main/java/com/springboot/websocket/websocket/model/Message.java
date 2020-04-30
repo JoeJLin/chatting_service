@@ -1,4 +1,4 @@
-package com.springboot.websocket.model;
+package com.springboot.websocket.websocket.model;
 
 import java.time.LocalDateTime;
 
