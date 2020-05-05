@@ -3,7 +3,7 @@ package com.springboot.websocket.user.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(schema = "websocket", name = "Users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
